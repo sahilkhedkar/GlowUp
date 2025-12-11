@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "tsc -b && dotenv/config node dist/index.js"
+    "dev": "tsc -b && node -r dotenv/config dist/index.js"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +15,7 @@
     "@types/jsonwebtoken": "^9.0.10",
     "bcrypt": "^6.0.0",
     "dotenv": "^17.2.3",
+    "express": "^5.2.1",
     "mongoose": "^9.0.1",
     "typescript": "^5.9.3",
     "zod": "^4.1.13"
